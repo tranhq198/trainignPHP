@@ -7,32 +7,32 @@ if(isset($_POST['submit'])) {
     $phone = $_POST["phone"];
     $adress = $_POST["adress"];
     if(preg_match("/w{2,30}/",$username) == false ) {
-        echo ("sai tên");
+        $nameErr = "Name is required";
     } else {
         echo ($username);
     }
     if(preg_match("^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$", $email) == false) {
-        echo ("sai email");
+        $emailErr = "Email is required";
     } else {
         echo ($email);
     }
     if(preg_match("^(?=.*[w])(?=.*\d)[w\d]{4,}$", $password) == false){
-        echo ("sai pass");
+        $passErr = "Email is required";
     } else {
         echo ($password);
     }
     if($repass != $password){
-        echo ("pass không khớp");
+        $repassErr = "Email is required";
     } else {
         echo ($repass);
     }
     if(preg_match("/d{8,12}", $phone) == false) {
-        echo ("sai số dt");
+        $phoneErr = "Email is required";
     } else {
         echo ($phone);
     }
     if(preg_match("/d{5,120}", $adress) == false) {
-        echo ("địa chỉ không đúng");
+        $adressErr = "Email is required";
     } else {
         echo ($adress);
     }

@@ -2,6 +2,8 @@
 $a = "";
 $b = "";
 $c = "";
+$x1 = "";
+$x2 = "";
 
 /**
  * @param $a
@@ -10,34 +12,31 @@ $c = "";
  */
 function giaiPt($a, $b, $c) {
     $delta  = $b*$b - (4*$a*$c);
-
-   if($delta < 0) {
-       echo ("phương trình vô nghiệm");
+    $x1 = "";
+    $x2 = "";
+    if($delta < 0) {
+        return 0;
    }else if($delta = 0) {
-       echo ("phuong trinh co nghiem kep");
-       echo ("x1 = x2"."="."-$b/(2*$a)");
+        $x1 = $x2 = -$b / (2* $a);
+        return $x1;
    }else if($delta > 0) {
-       echo ("phuong trinh co 2 nghiem phan biet");
-       echo ("x1 = ".(-$b + sqrt($delta)) / 2*$a);
-       echo ("x2 = ".(-$b - sqrt($delta)) / 2*$a);
+        $x1 = (-$b + sqrt($delta)) / (2*$a);
+        $x2 = (-$b - sqrt($delta)) / (2*$a);
+        return $x1;
+        return $x2;
    }
-   if($a + $b + $c == 0) {
-       echo ("phuong trinh co nghiem la:");
-       echo ("x1 = 1"."<br>"."x2 = "."$c / $a");
-   }
-    if($a - $b + $c == 0) {
-        echo ("phuong trinh co nghiem la: ");
-        echo ("x1=-1"."<br>"."x2 = "."-($c / $a)");
-    }
 }
-
 
 if(isset($_POST["submit"])) {
     $soA = $_POST["so_a"];
     $soB = $_POST["so_b"];
     $soC = $_POST["so_c"];
     if(!empty($soA || $soB || $soC)){
-        giaiPt($soA, $soB, $soC);
+        if($soA != 0) {
+            giaiPt($soA, $soB, $soC);
+        } else {
+            echo "số a phài khác 0";
+        }
     }else {
         echo "Thieu gia tri dau vao";
     }
