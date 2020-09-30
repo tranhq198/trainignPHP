@@ -1,14 +1,4 @@
-
 <?php
-//   if (isset($_POST['submit'])) {
-//       $username = $_POST['username'];
-//       $password = $_POST['password'];
-//       if($username == "admin" && $password == "12345") {
-//           echo ("Logged in successfully");
-//       } else {
-//           echo ("Username or password is wrong");
-//       }
-//   }
 $danhsachnhanvien = array(
     array(
         'name' => "Shouta Yamamoto",
@@ -99,7 +89,7 @@ $danhsachnhanvien = array(
     ?>
     </tbody>
 </table>
-    <br />
+<br />
 <!--    foreach   -->
 <table border="1px">
     <thead>
@@ -111,11 +101,11 @@ $danhsachnhanvien = array(
     </thead>
     <tbody>
     <?php
-        $i = 0;
-        foreach ($danhsachnhanvien as $nhanvien) {
-            if ($i++ % 2 != 0 && $i <= 10) {
+    $i = 0;
+    foreach ($danhsachnhanvien as $nhanvien) {
+        if ($i++ % 2 != 0 && $i <= 10) {
 
-    ?>
+            ?>
             <tr>
                 <td>
                     <?php echo($nhanvien['name']) ?>
@@ -127,8 +117,8 @@ $danhsachnhanvien = array(
                     <?php echo($nhanvien['position']) ?>
                 </td>
             </tr>
-    <?php
-            }
+            <?php
+        }
     }
     ?>
     </tbody>
@@ -145,11 +135,11 @@ $danhsachnhanvien = array(
     </thead>
     <tbody>
     <?php
-        $soluongnv = count($danhsachnhanvien);
-        $i = 0;
-        do{
-            if ($i % 2 != 0 && $i < 10) {
-    ?>
+    $soluongnv = count($danhsachnhanvien);
+    $i = 0;
+    do{
+        if ($i % 2 != 0 && $i < 10) {
+            ?>
             <tr>
                 <td>
                     <?php echo($danhsachnhanvien[$i]['name']) ?>
@@ -161,16 +151,10 @@ $danhsachnhanvien = array(
                     <?php echo($danhsachnhanvien[$i]['position']) ?>
                 </td>
             </tr>
-    <?php
-            }
+            <?php
+        }
         $i ++;
-        }while ($i < $soluongnv )
+    }while ($i < $soluongnv )
     ?>
     </tbody>
 </table>
-
-
-
-
-
-

@@ -12,19 +12,17 @@ $x2 = "";
  */
 function giaiPt($a, $b, $c) {
     $delta  = $b*$b - (4*$a*$c);
-    $x1 = "";
-    $x2 = "";
     if($delta < 0) {
         return 0;
-   }else if($delta = 0) {
+    }else if($delta = 0) {
         $x1 = $x2 = -$b / (2* $a);
         return $x1;
-   }else if($delta > 0) {
+    }else if($delta > 0) {
         $x1 = (-$b + sqrt($delta)) / (2*$a);
         $x2 = (-$b - sqrt($delta)) / (2*$a);
         return $x1;
         return $x2;
-   }
+    }
 }
 
 if(isset($_POST["submit"])) {

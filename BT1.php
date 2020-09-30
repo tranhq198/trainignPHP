@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="#" method="post">
-        <input type="text" name="username" placeholder="user name">
-        <input type="text" name="password" placeholder="pass word">
-        <button name="submit">Sign Up</button>
-    </form>
+<form action="#" method="post">
+    <input type="text" name="username" placeholder="user name">
+    <input type="text" name="password" placeholder="pass word">
+    <button name="submit">Sign Up</button>
+</form>
+
+<?php include "BT1_CodeXuLy.php"; ?>
 </body>
 </html>
