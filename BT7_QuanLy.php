@@ -1,3 +1,10 @@
+<?php
+
+if (session_id() === ''){
+    session_start();
+}
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,11 +13,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="BT7.css">
 </head>
 <body>
 
-    <?php include "ThongtinSv.php"; ?>
+
     <div class="container">
+        <h1>Quản Lí Thông Tin Sinh Viên</h1>
         <table border="1">
             <thead>
             <tr>
@@ -26,12 +35,12 @@
             <tbody>
             <tr>
                 <td>01</td>
-                <td><?php echo($_masv)?></td>
-                <td><?php echo($_ten)?></td>
-                <td><?php echo($_namsinh)?></td>
-                <td><?php echo($_tuoi)?></td>
-                <td><?php echo($_quequan)?></td>
-                <td><?php echo($_sodt)?></td>
+                <td><?php echo $_SESSION["masinhvien"] ?></td>
+                <td><?php echo $_SESSION["ten"] ?></td>
+                <td><?php echo $_SESSION["namsinh"] ?></td>
+                <td><?php echo $_SESSION["tuoi"] ?></td>
+                <td><?php echo $_SESSION["sodt"] ?></td>
+                <td><?php echo $_SESSION["quequan"] ?></td>
             </tr>
             </tbody>
         </table>
