@@ -180,10 +180,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="779" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="620" />
+    <option name="y" value="25" />
     <option name="width" value="1145" />
-    <option name="height" value="1047" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -275,20 +276,20 @@
       <workItem from="1601516428205" duration="133000" />
       <workItem from="1601516575248" duration="2407000" />
       <workItem from="1601519246394" duration="3002000" />
-      <workItem from="1601522586285" duration="22735000" />
+      <workItem from="1601522586285" duration="23016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100652000" />
+    <option name="totallyTimeSpent" value="100933000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="620" y="25" width="1145" height="1000" extended-state="1" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.08155651" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14101383" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.31960997" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.34025374" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
