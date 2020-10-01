@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Giải Phương Trình Bậc Hai</title>
-    <link rel="stylesheet" href="BT6.css">
+    <link rel="stylesheet" href="css/BT6.css">
 </head>
 <body>
 <div class="giaiptbac2">
@@ -19,13 +19,9 @@
             <input type="number" name="so_c" placeholder="Nhập c">
             <button name="submit">Bắt Đầu Tính</button>
         </form>
+        <div class="result"><?php include "backend.php"; ?></div>
     </div>
 </div>
 
-
-
-
-</div>
-<?php include "BT6_CodeXuLy.php"; ?>
 </body>
 </html>
