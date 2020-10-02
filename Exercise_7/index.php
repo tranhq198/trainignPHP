@@ -35,6 +35,7 @@ if(checkLogin()){
     </div>
 
     <?php
+
     if (isset($_POST["submit"])) {
         $masv = $_POST["masinhvien"];
         $ten = $_POST["hoten"];
@@ -79,6 +80,7 @@ if(checkLogin()){
             <tbody>
             <?php
             if(!empty($_SESSION['list'])) {
+                $list = $_SESSION['list'];
                 foreach ($list as $key => $value ) {
                     ?>
                     <tr>
@@ -89,9 +91,8 @@ if(checkLogin()){
                         <td><?php echo($value['tuoi']); ?></td>
                         <td><?php echo($value['sodienthoai']); ?></td>
                         <td><?php echo($value['quequan']); ?></td>
-                        <td><a href="edit.php">Sửa</a></td>
+                        <td><a href="edit.php?masinhvien=<?php echo $value['masinhvien']; ?>">Sửa</a></td>
                         <td><a href="edit.php">Xóa</a></td>
-
                     </tr>
                     <?php
                 }
