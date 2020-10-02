@@ -25,21 +25,35 @@ if(!$id) {
 
     if (isset($_POST["submit"])) {
 
+        $masvUpdate = $_POST["masinhvien"];
+        $tenUpdate = $_POST["hoten"];
+        $namsinhUpdate = $_POST["namsinh"];
+        $quequanUpdate = $_POST["quequan"];
+        $sodtUpdate = $_POST["sodienthoai"];
+        $tuoiUpdate = date('Y') - $namsinhUpdate;
+
+        if (isset($_SESSION['newlist'])) {
+            $newlist = $_SESSION['newlist'];
+        } else {
+            $newlist = [];
+        }
+
+        $newlist [] = [
+            'masinhvien' => $masvUpdate,
+            'ten'        => $tenUpdate,
+            'namsinh'    => $namsinhUpdate,
+            'tuoi'       => $tuoiUpdate,
+            'quequan'    => $quequanUpdate,
+            'sodienthoai'=> $sodtUpdate
+        ];
         $list = $_SESSION['list'];
-
-        $masv = $_POST["masinhvien"];
-        $hoten = $_POST["hoten"];
-        $namsinh = $_POST["namsinh"];
-        $quequan = $_POST["quequan"];
-        $sodienthoai = $_POST["sodienthoai"];
-
-
-
-
-
-//        header('Location: index.php');
+        foreach ($newlist as $key => $newvalue) {
+            if (!isset($id)){
+                $_SESSION['list'] = $newlist;
+                header('Location: index.php');
+            }
+        }
     }
-
 
     ?>
 <?php
