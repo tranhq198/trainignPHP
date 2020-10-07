@@ -4,7 +4,7 @@ if (isset($_POST['submit'])) {
     $password = $_POST['password'];
     if (checkUser($username, $password)) {
         $_SESSION['username'] = $username;
-        header('Location: index.php');
+        header('Location: howto.php');
     } else {
         echo "Tên đăng nhập hoặc mật khẩu không đúng !";
     }

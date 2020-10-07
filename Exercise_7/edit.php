@@ -23,35 +23,31 @@ if(!$id) {
     </div>
     <?php
 
-    if (isset($_POST["submit"])) {
+    $list = $_SESSION['list'];
 
+    if(!empty($_GET['masinhvien'])) {
+        $list =
+    }
+    $newlist [] = [
+        'masinhvien' => $masvUpdate,
+        'ten'        => $tenUpdate,
+        'namsinh'    => $namsinhUpdate,
+        'tuoi'       => $tuoiUpdate,
+        'quequan'    => $quequanUpdate,
+        'sodienthoai'=> $sodtUpdate
+    ];
+    if (isset($_POST["submit"])) {
         $masvUpdate = $_POST["masinhvien"];
         $tenUpdate = $_POST["hoten"];
         $namsinhUpdate = $_POST["namsinh"];
         $quequanUpdate = $_POST["quequan"];
         $sodtUpdate = $_POST["sodienthoai"];
         $tuoiUpdate = date('Y') - $namsinhUpdate;
+    }
 
-        if (isset($_SESSION['newlist'])) {
-            $newlist = $_SESSION['newlist'];
-        } else {
-            $newlist = [];
-        }
-
-        $newlist [] = [
-            'masinhvien' => $masvUpdate,
-            'ten'        => $tenUpdate,
-            'namsinh'    => $namsinhUpdate,
-            'tuoi'       => $tuoiUpdate,
-            'quequan'    => $quequanUpdate,
-            'sodienthoai'=> $sodtUpdate
-        ];
-        $list = $_SESSION['list'];
-        foreach ($newlist as $key => $newvalue) {
-            if (!isset($id)){
-                $_SESSION['list'] = $newlist;
-                header('Location: index.php');
-            }
+    foreach ($newlist as $key => $item) {
+        if($item['masinhvien'] == $id) {
+            $_SESSION['list'] = $list[$id];
         }
     }
 
