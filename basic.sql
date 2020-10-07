@@ -160,4 +160,11 @@ SELECT * FROM products WHERE id = 1;
 -----
 SELECT * FROM products WHERE in_stock <= 2;
 -----
-SELECT * FROM products WHERE in_stock ORDER BY in_stock DESC LIMIT 2;
+SELECT *, (SELECT SUM(quantity) as quantity
+        FROM `order_items`
+        WHERE product_id = id
+        GROUP BY product_id)
+    as quantity
+FROM products
+ORDER BY quantity
+DESC LIMIT 2
