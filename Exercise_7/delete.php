@@ -8,4 +8,4 @@ foreach ($list as $key => $value) {
     }
 }
 $list = $_SESSION['list'];
-header('Location: index.php');
+header('Location: home.php');
