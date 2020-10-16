@@ -6,22 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c326319e-f843-4567-ba85-e08e3833b0e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercise_11/views/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_13_/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_11/common/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/common/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_11/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_11/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_11/model/Student.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_11/model/connect_db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_11/public/scrip.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/views/public/scrip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_11/public/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_11/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/views/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_11/views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/views/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_11/views/parts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/views/parts/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_11/views/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/views/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_13/Exercise_13.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_13/Exercise_13.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_14/homework-oop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_14/homework-oop.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise_7_solve" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_7_solve" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise_7_solve/exercise7/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_7_solve/exercise7/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic.sql" beforeDir="false" afterPath="$PROJECT_DIR$/basic.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phpHomework" beforeDir="false" afterPath="$PROJECT_DIR$/phpHomework" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phpHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpHomework/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -53,8 +43,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpHomework/Array/_3.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Exercise_13_/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153" />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -96,18 +88,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise_13/Exercise_13.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exercise_14/homework-oop.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -134,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Bài_Tập_7/backend.php" />
         <option value="$PROJECT_DIR$/Bài_Tập_7/functions.php" />
         <option value="$PROJECT_DIR$/Bài_Tập_4/backend.php" />
         <option value="$PROJECT_DIR$/Exercise_1/css/style.css" />
@@ -184,15 +179,16 @@
         <option value="$PROJECT_DIR$/Exercise_11/model/functions.php" />
         <option value="$PROJECT_DIR$/basic.sql" />
         <option value="$PROJECT_DIR$/Exercise_13.php" />
+        <option value="$PROJECT_DIR$/Exercise_14/homework-oop.php" />
         <option value="$PROJECT_DIR$/Exercise_13/Exercise_13.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="763" />
-    <option name="y" value="65" />
+    <option name="x" value="625" />
+    <option name="y" value="186" />
     <option name="width" value="1064" />
-    <option name="height" value="991" />
+    <option name="height" value="748" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -202,7 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,17 +210,23 @@
               <item name="homework" type="462c0819:PsiDirectoryNode" />
               <item name="Exercise_13" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercise_14" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercise_13_" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -310,12 +311,13 @@
       <workItem from="1602646587447" duration="579000" />
       <workItem from="1602744159539" duration="436000" />
       <workItem from="1602745154795" duration="8538000" />
-      <workItem from="1602812785173" duration="10755000" />
+      <workItem from="1602812785173" duration="14342000" />
+      <workItem from="1602833017772" duration="11351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218135000" />
+    <option name="totallyTimeSpent" value="233073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,13 +329,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="763" y="65" width="1064" height="991" extended-state="0" />
+    <frame x="625" y="186" width="1064" height="748" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1494024" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15239044" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.599094" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.5990676" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -376,8 +378,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Exircise_9/backend.php" />
-    <entry file="file://$PROJECT_DIR$/Exircise_9/uploads093d059a988878a4ba30f3d6c79926d6.jpg" />
     <entry file="file://$PROJECT_DIR$/Exercise_9/howto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -592,6 +592,9 @@
     <entry file="file://$PROJECT_DIR$/phpHomework/Array/_3.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/121681323_415546316276714_8074010579511626263_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/phpHomework/Array/_4.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -617,13 +620,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_14/homework-oop.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Exercise_13_/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Exercise_13/Exercise_13.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="289">
+          <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_14/homework-oop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
