@@ -168,3 +168,4 @@ SELECT *, (SELECT SUM(quantity) as quantity
 FROM products
 ORDER BY quantity
 DESC LIMIT 2
+

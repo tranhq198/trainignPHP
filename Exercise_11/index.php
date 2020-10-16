@@ -1,6 +1,6 @@
 <?php
 
-require 'model/connect_db.php';
+require 'model/dbconnect.php';
 require 'common/function.php';
 require 'controllers/AuthController.php';
 require 'controllers/HomeController.php';

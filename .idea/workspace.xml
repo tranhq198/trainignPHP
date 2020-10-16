@@ -6,10 +6,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c326319e-f843-4567-ba85-e08e3833b0e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Exercise_11/views/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise_7/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_7/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/common/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/common/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/model/Student.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/model/connect_db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/public/scrip.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/views/public/scrip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/public/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/views/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/views/parts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/views/parts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/views/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/views/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise_7_solve" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_7_solve" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise_7_solve/exercise7/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_7_solve/exercise7/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic.sql" beforeDir="false" afterPath="$PROJECT_DIR$/basic.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phpHomework" beforeDir="false" afterPath="$PROJECT_DIR$/phpHomework" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phpHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpHomework/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -41,75 +53,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercise_11/views/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/phpHomework/Array/_3.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercise_11/views/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/phpHomework/Array/_4.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercise_11/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/phpHomework/Array/_5.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercise_11/common/function.php">
+        <entry file="file://$PROJECT_DIR$/phpHomework/Loop/_1.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpHomework/Loop/_2.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpHomework/Loop/_3.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpHomework/Loop/_4.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpHomework/Loop/_5.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="323">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exercise_11/controllers/AuthController.php">
+        <entry file="file://$PROJECT_DIR$/Exercise_13/Exercise_13.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="527">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercise_11/controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercise_11/model/Student.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercise_11/views/register.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Exercise_14/homework-oop.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -136,15 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BT6_CodeXuLy.php" />
-        <option value="$PROJECT_DIR$/BT7_NhapThongTin.php" />
-        <option value="$PROJECT_DIR$/BT7_QuanLy.php" />
-        <option value="$PROJECT_DIR$/Bài_Tập_1/index.php" />
-        <option value="$PROJECT_DIR$/Bài_Tập_4/index.php" />
-        <option value="$PROJECT_DIR$/Bài_Tập_6/index.php" />
-        <option value="$PROJECT_DIR$/Bài_Tập_7/member_registration.php" />
-        <option value="$PROJECT_DIR$/Bài_Tập_7/login.php" />
-        <option value="$PROJECT_DIR$/Bài_Tập_7/index.php" />
         <option value="$PROJECT_DIR$/Bài_Tập_7/backend.php" />
         <option value="$PROJECT_DIR$/Bài_Tập_7/functions.php" />
         <option value="$PROJECT_DIR$/Bài_Tập_4/backend.php" />
@@ -167,9 +156,7 @@
         <option value="$PROJECT_DIR$/Exircise_9/howto.php" />
         <option value="$PROJECT_DIR$/Exircise_9/function.php" />
         <option value="$PROJECT_DIR$/Exercise_8/Exercise.php" />
-        <option value="$PROJECT_DIR$/basic.sql" />
         <option value="$PROJECT_DIR$/Exercise_11/model/connect.php" />
-        <option value="$PROJECT_DIR$/Exercise_11/model/connect_db.php" />
         <option value="$PROJECT_DIR$/Exercise_11/model/register.php" />
         <option value="$PROJECT_DIR$/Exercise_11/view/home.php" />
         <option value="$PROJECT_DIR$/Exercise_11/controller/common/function.php" />
@@ -180,21 +167,32 @@
         <option value="$PROJECT_DIR$/Exercise_11/views/header.php" />
         <option value="$PROJECT_DIR$/Exercise_11/views/parts/footer.php" />
         <option value="$PROJECT_DIR$/Exercise_11/views/home.php" />
-        <option value="$PROJECT_DIR$/Exercise_11/views/register.php" />
         <option value="$PROJECT_DIR$/Exercise_11/controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/Exercise_11/common/function.php" />
+        <option value="$PROJECT_DIR$/Exercise_11/model/connect_db.php" />
+        <option value="$PROJECT_DIR$/Exercise_11/model/dbconnect.php" />
+        <option value="$PROJECT_DIR$/Exercise_11/model/Student.php" />
+        <option value="$PROJECT_DIR$/Exercise_11/model/function.php" />
         <option value="$PROJECT_DIR$/Exercise_11/views/login.php" />
         <option value="$PROJECT_DIR$/Exercise_11/index.php" />
-        <option value="$PROJECT_DIR$/Exercise_11/model/Student.php" />
+        <option value="$PROJECT_DIR$/Exercise_11/common/function.php" />
+        <option value="$PROJECT_DIR$/Exercise_11/model/students.php" />
+        <option value="$PROJECT_DIR$/Exercise_11/public/style.css" />
+        <option value="$PROJECT_DIR$/Exercise_11/views/public/style.css" />
+        <option value="$PROJECT_DIR$/Exercise_11/views/parts/header.php" />
         <option value="$PROJECT_DIR$/Exercise_11/controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/Exercise_11/views/register.php" />
+        <option value="$PROJECT_DIR$/Exercise_11/model/functions.php" />
+        <option value="$PROJECT_DIR$/basic.sql" />
+        <option value="$PROJECT_DIR$/Exercise_13.php" />
+        <option value="$PROJECT_DIR$/Exercise_13/Exercise_13.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="381" />
-    <option name="y" value="54" />
-    <option name="width" value="1131" />
-    <option name="height" value="1016" />
+    <option name="x" value="763" />
+    <option name="y" value="65" />
+    <option name="width" value="1064" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -204,47 +202,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="thefox.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thefox.local" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="thefox.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thefox.local" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thefox.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thefox.local" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_11" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thefox.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thefox.local" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_11" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thefox.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thefox.local" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_11" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thefox.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thefox.local" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_11" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercise_13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,11 +239,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\homework\Exercise_13" />
+      <recent name="C:\wamp64\www\thefox.local\Exercise_11\views" />
       <recent name="C:\wamp64\www\thefox.local\Exercise_11\views\parts" />
       <recent name="C:\wamp64\www\thefox.local\Exercise_11" />
       <recent name="C:\wamp64\www\thefox.local\Exercise_11\view" />
-      <recent name="C:\wamp64\www\thefox.local\Exircise_9\cookie" />
-      <recent name="C:\wamp64\www\thefox.local\Exircise_9\project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,32 +298,53 @@
       <workItem from="1601977060802" duration="962000" />
       <workItem from="1602045888720" duration="16847000" />
       <workItem from="1602121518126" duration="273000" />
-      <workItem from="1602140034611" duration="14537000" />
+      <workItem from="1602140034611" duration="14627000" />
+      <workItem from="1602208243530" duration="14494000" />
+      <workItem from="1602230025071" duration="812000" />
+      <workItem from="1602236125366" duration="58000" />
+      <workItem from="1602236216013" duration="2833000" />
+      <workItem from="1602467612897" duration="23000" />
+      <workItem from="1602472767564" duration="1746000" />
+      <workItem from="1602476885976" duration="20000" />
+      <workItem from="1602640281397" duration="3716000" />
+      <workItem from="1602646587447" duration="579000" />
+      <workItem from="1602744159539" duration="436000" />
+      <workItem from="1602745154795" duration="8538000" />
+      <workItem from="1602812785173" duration="10755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174035000" />
+    <option name="totallyTimeSpent" value="218135000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="381" y="54" width="1131" height="1016" extended-state="0" />
+    <frame x="763" y="65" width="1064" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24836601" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1494024" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.59956235" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.599094" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.5198188" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.5196937" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32993197" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -381,106 +376,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Exercise_7/member_registration.php" />
-    <entry file="file://$PROJECT_DIR$/Exercise_2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_6/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_6/backend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_1/backend.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_4/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_4/backend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_7/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_8.php" />
-    <entry file="file://$PROJECT_DIR$/Exercise_8">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_5/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_7_solve/exercise7/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_7_solve/exercise7/common/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_7/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_7/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exircise_9/cookie/project/uploadsoki.jpg" />
-    <entry file="file://$PROJECT_DIR$/Exercise_7_solve/exercise7/actions/students/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_7_solve/exercise7/actions/students/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_7_solve/exercise7/actions/students/edit.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exircise_9/backend.php" />
     <entry file="file://$PROJECT_DIR$/Exircise_9/uploads093d059a988878a4ba30f3d6c79926d6.jpg" />
     <entry file="file://$PROJECT_DIR$/Exercise_9/howto.php">
@@ -490,54 +385,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_9/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_8/Exercise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpHomework/Array/_1.php">
+    <entry file="file://$PROJECT_DIR$/Exercise_11/views/public/scrip.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/public/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/public/scrip.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/controller/actions/edit.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/controller/actions/delete.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/controller/actions/add.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/views/home.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_10/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_10/connect.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_11/controller/actions/edit.php" />
+    <entry file="file://$PROJECT_DIR$/Exercise_11/controller/actions/delete.php" />
+    <entry file="file://$PROJECT_DIR$/Exercise_11/controller/actions/add.php" />
     <entry file="file://$PROJECT_DIR$/Exercise_7/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -573,17 +426,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/model/connect_db.php">
+    <entry file="file://$PROJECT_DIR$/Exercise_11/model/connect_db.php" />
+    <entry file="file://$PROJECT_DIR$/Exercise_11/model/function.php" />
+    <entry file="file://$PROJECT_DIR$/Exercise_11/views/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="391">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="26" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/views/parts/footer.php">
+    <entry file="file://$PROJECT_DIR$/Exercise_11/views/public/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="357">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -594,59 +449,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/index.php">
+    <entry file="file://$PROJECT_DIR$/Exercise_11/controllers/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="339">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/views/home.php">
+    <entry file="file://$PROJECT_DIR$/Exercise_11/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/views/register.php">
+    <entry file="file://$PROJECT_DIR$/Exercise_11/model/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_11/common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_11/model/students.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_7_solve/exercise7/actions/students/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Exercise_11/views/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/common/function.php">
+    <entry file="file://$PROJECT_DIR$/Exercise_11/model/dbconnect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/controllers/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/Exercise_11/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/model/Student.php">
+    <entry file="file://$PROJECT_DIR$/Exercise_11/views/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise_11/controllers/AuthController.php">
+    <entry file="file://$PROJECT_DIR$/Exercise_10/connect.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_10/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_8/Exercise.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="15" selection-start-line="145" selection-start-column="15" selection-end-line="145" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_2/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_3/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc-template/controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc-template/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_9/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_7_solve/exercise7/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_11/views/parts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_5/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpHomework/Array/_1.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpHomework/Array/_2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpHomework/Array/_3.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpHomework/Array/_4.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpHomework/Array/_5.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpHomework/Loop/_1.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpHomework/Loop/_2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpHomework/Loop/_3.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpHomework/Loop/_4.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpHomework/Loop/_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_14/homework-oop.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise_13/Exercise_13.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
         </state>
       </provider>
     </entry>
